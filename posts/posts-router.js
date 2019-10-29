@@ -1,7 +1,7 @@
 const router = require('express').Router();
 
 // 5 update path for the require
-const Posts = require('./posts-model.js');
+const Posts = require('../data/db.js');
 
 // 3
 // this router handles requests beginning with /api/posts
